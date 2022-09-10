@@ -21,7 +21,7 @@ while(1):
             if first == 0:
                 mytext = UserVoiceInput_converted_to_Text[1:]
             elif (first>0) :
-                mytext = 'you said' + UserVoiceInput_converted_to_Text[0:first] +'at the begining  and' + UserVoiceInput_converted_to_Text[(first+1):] +'at the end'
+                mytext = 'Oh no! ,you said' + UserVoiceInput_converted_to_Text[0:first] +'at the begining  and' + UserVoiceInput_converted_to_Text[(first+1):] +'at the end'
             else :
                 mytext = 'wrong word'
 
