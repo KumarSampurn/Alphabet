@@ -9,7 +9,7 @@ while True:
         ret, frame= cap.read()
         if(ret):
             # rectange
-            cv2.rectangle(frame, (225,124),(425,325),(0.255,0))
+            cv2.rectangle(frame, (225,125),(425,325),(0.255,0))
             #verticle line
             cv2.rectangle(frame, (325, 175),(325,275),(0,255,0))
             #horizontal line
@@ -30,7 +30,7 @@ while True:
 
             gray = cv2.cvtColor(img_, cv2.COLOR_BGR2GRAY)
 
-            img_ = cv2.resize(gray,(500,500))
+            img_ = img_[125:325 , 225:425]
 
             img_resized = cv2.imwrite(filename='captured_image_greyscale-final.jpg', img=img_)
             print("Image saved!")
