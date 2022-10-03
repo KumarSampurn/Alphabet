@@ -140,7 +140,7 @@ def alpha():
         capture_image()
         captured_image=cv2.imread("captured_image_greyscale-final.jpg")
         #captured_image=cv2.imread(r"C:\Users\KUMAR SAMPURN\Documents\Kodikon\database\bad_A.jpeg")
-        
+        #added a c module
         
         width = 500
         height = 500
