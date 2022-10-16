@@ -48,6 +48,6 @@ while True:
         print("Turning off camera.")
         cap.release()
         print("Camera off.")
-        print("Program ended.")
-        cv2.destroyAllWindows()
+        print("Program ended.");
+        cv2.destroyAllWindows();
         break
