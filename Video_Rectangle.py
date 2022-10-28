@@ -15,7 +15,7 @@ def main():
 		if(ret):
 			
 			# adding filled rectangle on each frame
-			cv2.rectangle(frame, (100, 150), (500, 600),
+			cv2.rectangle(frame, (150, 150), (500, 850),
 						(0, 255, 0), -1)
 			
 			# writing the new frame in output
